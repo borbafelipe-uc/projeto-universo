@@ -14,20 +14,30 @@ body {
 }
 
 header {
-    ul{
-         
-        a{
+    display: flex;
+    padding-inline: 72px;
+    gap: 44px;
+    padding-block: 40px;
+    align-items: center;
+
+    ul {
+        display: flex;
+        gap: 44px;
+        list-style: none;
+
+        a {
             font-size: 22px;
             text-decoration: none;
             color: #c4c4cc;
         }
 
-        .ativa{
-            color: #FFF;
+        .ativa {
+            color: #FFFF;
             font-weight: 700;
         }
     }
 }
+
 
 main {
     color: #e1e1e6;
